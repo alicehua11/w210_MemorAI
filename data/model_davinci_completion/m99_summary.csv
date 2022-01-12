@@ -1,0 +1,2 @@
+,model_id,engine_id,engine_name,n_epochs,batch_size,lr_multiplier,temp,pres_pen,freq_pen,fact_f1,inf_fluency,inf_relevancy,abs_fluency,abs_relevancy,all_f1,all_fluency,all_relevancy,all_macro
+0,99,8,davinci:ft-brainmonkey-foundation-2021-12-01-09-02-32,5,5,0.1,0.1,0,2,0.12444444745779037,0.5891405940055847,0.43181514739990234,0.6234023571014404,0.36754000186920166,0.12444444745779037,0.606271505355835,0.399677574634552,0.3767978424827258

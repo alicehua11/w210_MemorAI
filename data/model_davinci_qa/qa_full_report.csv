@@ -1,0 +1,29 @@
+,Question,Answer,Prediction,F1
+0,What makes El Cap so intimidating?,Scale of the wall,The sheer scale of the wall.,1.0
+1,What is your usual breakfast?,Muesli and fruit,Muesli and fruit.,1.0
+2,Where did you grow up?,"Sacramento, California","Sacramento, California.",1.0
+3,Who is your dad?,Charles Hannold,Charles Honnold.,0.6666666666666666
+4,When is your birthday?,"August 17, 1985",August 17.,0.8
+5,Who is your mom?,Dierdre Wolownick,My mom is Dierdre Wolownick.,1.0
+6,Who is your sister?,Stasia,Stasia.,1.0
+7,Which language did your mom talk to you in?,French,French.,1.0
+8,At what age did you start climbing?,10,I started climbing when I was 10 years old.,1.0
+9,Where did your dad get a permanent job?,American River College ,American River College.,0.8571428571428571
+10,Whose climbing stories did you read growning up?,Mark Twight,"Mark Twight, aka Doctor Doom.",1.0
+11,Which project were you dreaming of for years?,Moonlight Buttress,Moonlight Buttress.,1.0
+12,What was the favorite hiking destination for you and your dad?,Mount Tallac,Mount Tallac.,1.0
+13,Who convinced the North Face to sponsor you?,Conrad Anker,Conrad Anker.,1.0
+14,What is your biographical documentary name?,Free Solo,Free Solo.,1.0
+15,Where did you live while climbing in your early years?,van,I lived in a ten with the bicycle for a while before and I didn't have a car for a while.,0.0
+16,Do you eat meat?,No,No.,1.0
+17,What year did you meet Sanni McCandless?,2015,I think it was like 2013.,0.0
+18,What is your philantropic work called?,The Honnold Foundation,Honnold Foundation.,0.8
+19,What did you study in your undergrad?,Civil engineering,I studied psychology and philosophy.,0.0
+20,Is Tommy Caldwell your climbing partner?,Yes,Yes.,1.0
+21,What is your podcast about?,Climbing,Climbing.,1.0
+22,Where is your home?,"Las Vegas, Nevada",I live in Las Vegas.,0.8
+23,Have you climbed Moonlight Buttress in Zion National Park?,Yes,Yes.,1.0
+24,Have you climbed the Northwest Face of Half Dome?,Yes,Yes.,1.0
+25,Have you climbed Mount Watkins?,Yes,Yes.,1.0
+26,Have you climbed The Nose?,Yes,Yes.,1.0
+27,Have you climbed K2?,No,No.,1.0

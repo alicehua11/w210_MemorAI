@@ -1,0 +1,299 @@
+@charset "UTF-8";
+body {
+    padding: 0;
+	min-height: 100vh;
+    
+    background: rgb(255, 255, 255) no-repeat; /* URL is defined in js */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #2c2c2c;
+    letter-spacing: 0.08em;
+    font-weight: lighter;
+    
+    min-width:375px;
+    width: auto !important;
+    
+	user-select: none !important;
+	text-rendering: geometricPrecision;
+}
+textarea, input {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+::-moz-selection { /* Code for Firefox */
+    background: rgb(41, 41, 41);
+  }
+  
+::selection {
+    color:#e0e0e0;
+    background: rgb(94, 94, 94);
+}
+img {
+    user-select: none !important;
+}
+a {
+	text-decoration: none;
+	color: #313131;
+}
+a:hover {
+	color: #830202;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* Page Login */
+#container_logo_login {
+    width: 100%;
+    text-align: center;
+    margin: 350px 0 10px 0;
+}
+#container_login {
+    text-align: center;
+    width: 100%;
+}
+.input_generic {
+    color:rgb(105, 105, 105);
+    background-color: #e0e0e0;
+    width: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(90, 90, 90, 0);
+    letter-spacing: 0.08em;
+    border-radius: 7px;
+    margin: 0 0 5px 0;
+}
+.input_generic:focus {
+    color:rgb(126, 126, 126);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.button_generic:hover {
+    background-color: #333333;
+}
+.button_generic, #button_ask {
+    font-size: 1.05em;
+    margin: 7px 0 5px 0;
+    color:rgb(236, 236, 236);
+    background-color: #525252;
+    width: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    letter-spacing: 0.08em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#container_form_message {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+/**
+#container_login a {
+    color:rgb(114, 114, 114);
+}
+#container_login a:hover {
+    color:rgb(180, 180, 180);
+}
+*/
+
+
+/* Profile Top */
+#container_logo {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+#container_logo img{
+    margin: 0 1px 0 0;
+}
+#container_profile {
+    width: 100%;
+    text-align: center;
+    margin: 80px 0 0 0;
+    font-size: 34px;
+    color: #363636;
+    letter-spacing: 0.1em;
+}
+#container_profile img {
+    border-radius: 50%;
+    width: 150px;
+}
+#container_quote {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    color: #707070;
+    padding: 10px 0 30px 0;
+    letter-spacing: 0.1em;
+}
+#container_topics {
+    width: 100%;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+
+/* Q&A */
+#container_ask {
+    text-align: center;
+    width: 100%;
+}
+#input_field_question {
+    color:rgb(85, 85, 85);
+    border: 1px solid rgba(216, 216, 216);
+    background-color: #fcfcfc;
+    width: 500px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    letter-spacing: 0.08em;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#input_field_question:focus {
+    border: 1px solid rgb(124, 124, 124);
+}
+#button_ask:hover {
+    background-color: rgb(97, 97, 97);
+}
+#button_ask {
+    width: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    letter-spacing: 0.08em;
+    border-radius: 10px;
+    font-size: 14px;
+    color:rgb(245, 245, 245);
+    background-color: rgb(92, 92, 92);
+}
+#container_dialogue {
+    width: 650px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #fcfcfc;
+    margin: 10px auto -1px auto;
+    padding: 50px 80px 50px 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    font-size: 16px;
+    color: #414141;
+    text-align: justify;
+    overflow: scroll;
+    text-rendering: optimizeLegibility !important;
+}
+
+
+/* Grid */
+#container_grid { 
+    width: 800px; 
+    margin: 10px auto 50px auto;
+    border: 0px solid rgb(189, 14, 14);
+}
+.grid_item img { 
+    width: 100%;
+    border-radius: 3px;
+    display: block;
+    opacity: 0.9;
+    filter: brightness(1.1);
+}
+.grid_item img:hover { 
+    opacity: 1;
+    cursor: pointer;
+}
+.grid_item { 
+    width: 194px;
+    padding: 3px
+}
+
+
+/* Bottom */
+#container_bottom {
+    width: 100%;
+    margin: 100px 0 10px 0;
+    text-align: center;
+}
+.sep {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    color:rgb(105, 105, 105);
+}
+
+
+/* Registration */
+#container_rgistration_login {
+    width: 100%;
+    text-align: center;
+    margin: 200px 0 0 0;
+}
+#container_registration {
+    text-align: center;
+    width: 100%;
+    color:rgb(114, 114, 114);
+}
+#container_registration_title {
+    width: 100%;
+    margin: 0px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color:rgb(51, 51, 51);
+}
+
+
+/* Interview */
+#container_interview {
+    margin: 50px auto 50px auto;
+    width: 600px;
+    text-rendering:optimizeLegibility !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container_interview h2 {
+    font-size: 18px;
+    letter-spacing: 0.08em;
+    font-weight: lighter;
+    line-height: 0.8em;
+    margin-top: 40px;
+    color:rgb(15, 15, 15)
+}
+.interview_ans {
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    color:rgb(80, 80, 80);
+    line-height: 20px;
+}
+
+
+/* Tableau */
+#myTableauViz {
+    width: 91%;
+    height: 768px;
+    margin: 0px auto -1px auto;
+    padding: 20px 30px 50px 30px;
+}
+
+/* Q&A */
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column img {
+    border-radius: 50%;
+    width: 150px;
+    border: 1px solid rgb(221, 221, 221);
+}
