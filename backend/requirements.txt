@@ -42,7 +42,7 @@ wrapt==1.12.1
 xarray==0.18.2
 zipp==3.6.0
 fastapi==0.70.0
-gunicorn==20.1.0
+gunicorn==22.0.0
 uvicorn==0.11.3
 uvloop>=0.14.0
 httptools==0.1.2
