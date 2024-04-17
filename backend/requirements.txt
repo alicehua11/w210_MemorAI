@@ -19,7 +19,7 @@ pandas>=1.2.3
 pathlib==1.0.1
 pickleshare==0.7.5
 pip-tools==6.2.0
-protobuf==3.17.3
+protobuf==3.18.3
 psutil==5.4.8
 py==1.10.0
 pyarrow==3.0.0
